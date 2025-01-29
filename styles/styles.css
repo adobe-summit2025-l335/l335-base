@@ -12,10 +12,10 @@
 
 :root {
   /* colors */
-  --background-color: white;
+  --background-color: black;
   --light-color: #f8f8f8;
   --dark-color: #505050;
-  --text-color: #131313;
+  --text-color: white;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
@@ -181,7 +181,7 @@ button {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
+  border: 2px solid var(--background-color);
   color: var(--background-color);
   cursor: pointer;
   overflow: hidden;
@@ -193,13 +193,11 @@ a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
   cursor: pointer;
 }
 
 button:disabled,
 button:disabled:hover {
-  background-color: var(--light-color);
   cursor: unset;
 }
 
@@ -252,6 +250,7 @@ main > .section:first-of-type {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
+  color: black;
   margin: 0;
   padding: 40px 0;
 }
