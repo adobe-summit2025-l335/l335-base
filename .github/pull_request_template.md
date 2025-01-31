@@ -3,5 +3,5 @@ Please always provide the [GitHub issue(s)](../issues) your PR is for, as well a
 Fix #<gh-issue-id>
 
 Test URLs:
-- Before: https://main--summit-test--mhaack.aem.live/
-- After: https://<branch>--summit-test--mhaack.aem.live/
+- Before: https://main--l335-base--adobe-summit2025-l335.aem.live/
+- After: https://<branch>--l335-base--adobe-summit2025-l335.aem.live/

@@ -1,3 +1,8 @@
+:scope {
+  --card-title: #ab1ca8;
+  --card-border: #de8ade;
+}
+
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -8,11 +13,21 @@
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
 }
 
 .cards .cards-card-body {
   margin: 16px;
+}
+
+.cards .cards-card-body h2,
+.cards .cards-card-body h3,
+.cards .cards-card-body h4,
+.cards .cards-card-body h5,
+.cards .cards-card-body h6 {
+  color: var(--card-title);
+  margin-top: 0;
 }
 
 .cards .cards-card-image {
@@ -23,4 +38,5 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  border-radius: 10px;
 }
