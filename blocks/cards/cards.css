@@ -1,6 +1,6 @@
 :scope {
-  --card-title: rgb(166, 13, 166);
-  --card-border: rgb(222, 138, 222);
+  --card-title: #ab1ca8;
+  --card-border: #de8ade;
 }
 
 .cards > ul {
